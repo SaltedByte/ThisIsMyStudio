@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andreypu/thisismy.studio/
+    - /bin/cp -R images $DEPLOYPATH
